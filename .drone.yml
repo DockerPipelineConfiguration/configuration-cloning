@@ -22,3 +22,8 @@ steps:
   depends_on:
   - first
   - second
+
+when:
+  repo:
+    include:
+    - DockerPipelineConfiguration/configuration-cloning
