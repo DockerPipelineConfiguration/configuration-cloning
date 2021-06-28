@@ -25,5 +25,5 @@ steps:
 
 when:
   repo:
-    exclude:
+    include:
     - DockerPipelineConfiguration/configuration-cloning
